@@ -1,17 +1,17 @@
-var posts = [        
+var posts = [
 		{
             id: 0,
             user: {
                 id: 1,
                 username: "harryp",
-                profileImageSmall: "http://bywilma.com/wp-content/uploads/2012/03/Cat-John.jpg" 
-            },                                                 
+                profileImageSmall: "http://bywilma.com/wp-content/uploads/2012/03/Cat-John.jpg"
+            },
             image: "https://s-media-cache-ak0.pinimg.com/originals/5f/4e/b6/5f4eb67439ab51ed271c7b06c5c8b4ef.jpg",
             imageThumbnail: "http://bywilma.com/wp-content/uploads/2012/03/Cat-John.jpg",
             likes: 892,
 			userLike: false,
             caption: "pigs!",
-            tags: ['elections'],         
+            tags: ['elections'],
             comments: [{
                         id: 0,
                         user: {
@@ -25,7 +25,34 @@ var posts = [
                     }
             ]
 
-        }
+        },
+				{
+								id: 0,
+								user: {
+										id: 1,
+										username: "harryp",
+										profileImageSmall: "http://bywilma.com/wp-content/uploads/2012/03/Cat-John.jpg"
+								},
+								image: "https://s-media-cache-ak0.pinimg.com/originals/5f/4e/b6/5f4eb67439ab51ed271c7b06c5c8b4ef.jpg",
+								imageThumbnail: "http://bywilma.com/wp-content/uploads/2012/03/Cat-John.jpg",
+								likes: 892,
+					userLike: false,
+								caption: "pigs!",
+								tags: ['elections'],
+								comments: [{
+														id: 0,
+														user: {
+																id: 1,
+																username: "JohnCat",
+																profileImageSmall: "http://bywilma.com/wp-content/uploads/2012/03/Cat-John.jpg"
+														},
+														text: "hahahaha",
+														userRefs: [],
+														tags: []
+												}
+								]
+
+						},
 			]
 
 

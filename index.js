@@ -8,12 +8,12 @@ var posts = require('./Home/Posts.js');
 var users = [{
         id: "1",
         username: "test",
-        password: "pwd"
+        password: "test"
     },
     {
         id: "2",
-        username: "john",
-        password: "john"
+        username: "cat",
+        password: "cat"
     }
 	
     ];
