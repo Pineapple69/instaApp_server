@@ -15,25 +15,25 @@ var users = [{
         username: "cat",
         password: "cat"
     }
-	
+
     ];
 
 app.set('port', (process.env.PORT || 8200));
 app.use(cors());
-app.use(bodyParser.json()); 
+app.use(bodyParser.json());
 
 app.use(posts);
 
 app.get('/', function(req, res) {
-	res.send("Welcome to Instaapp!!");
+	res.send("Welcome to InstaappOKOKOK!!");
 });
 
 app.post('/login', function(req,res){
     console.log("test login");
     console.log(req.body);
-    
+
 	var u = users.find(function(element){
-         return (element.username === req.body.username) && (element.password === req.body.password);        
+         return (element.username === req.body.username) && (element.password === req.body.password);
     });
 
     if(u !== undefined)
@@ -49,7 +49,7 @@ app.post('/login', function(req,res){
 app.post('/signup', function(req,res){
     console.log("test signup");
     console.log(req.body);
-    var u = users.push(    
+    var u = users.push(
 	{
         id: "2",
         username: req.body.username,
@@ -72,4 +72,4 @@ app.listen(app.get('port'), function() {
 
 console.log('Instaapp is running!');
 
-}); 
+});
